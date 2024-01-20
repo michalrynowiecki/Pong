@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="white-seamless-pattern-with-horizontal-lines_197792-3454.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="white-seamless-pattern-with-horizontal-lines_197792-3454.jpg" />
+  </ItemGroup>
+
 </Project>
