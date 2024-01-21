@@ -9,11 +9,22 @@
     <Canvas x:Name="background" Focusable="True" KeyDown="KeyIsDown" KeyUp="KeyIsUp" Background="Black">
 
         <Rectangle x:Name="playerBox" Stroke="White" StrokeThickness="8" Height="75" Width="25"
-                    Canvas.Left="10" Canvas.Bottom="180">
-        </Rectangle>
+                    Canvas.Left="10" Canvas.Bottom="180"/>
 
         <Rectangle x:Name="enemyBox" Stroke="White" Height="75" Width="25" Canvas.Right="10"
                    StrokeThickness="8" Canvas.Bottom="180"/>
+
+        <Label x:Name ="playerScore" Content="0" FontSize="85" Foreground="White" FontFamily="Segoe UI Historic" FontWeight="Bold"
+                   Canvas.Left="200"/>
+
+        <Label x:Name ="enemyScore" Content="0" FontSize="85" Foreground="White" FontFamily="Segoe UI Historic" FontWeight="Bold"
+           Canvas.Right="200"/>
+
+        <Rectangle x:Name="ball" Height="15" Stroke="White" Width="15" Canvas.Left="395" 
+                   Canvas.Bottom="220" Fill="White"/>
+
+        <Rectangle x:Name="ball1" Height="1" Stroke="White" Width="15" Canvas.Left="1" 
+           Canvas.Bottom="20" Fill="Orange"/>
 
     </Canvas>
 </Window>
